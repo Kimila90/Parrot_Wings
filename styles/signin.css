@@ -1,0 +1,107 @@
+img {
+    align-items: flex-start;
+}
+
+
+.tabs {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 195px;
+    height: 32px;
+}
+
+.tab__signin {
+    width: 98px;
+    border-radius: 8px;
+    border: 1px solid #0072C7;
+    height: 100%;
+}
+
+.tab__signin p {
+    text-align: center;
+    padding: 6px;
+    font-weight: 400;
+    color: #0072C7;
+}
+
+.tab__signup {
+    width: 98px;
+    border: 1px ;
+    height: 100%;
+}
+
+.tab__signup p {
+    text-align: center;
+    padding: 6px;
+    font-weight: 400;
+}
+
+.field {
+    width: 343px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.field__inner {
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    right: 1.1em;
+    top: 0.8em;
+}
+
+/* .field .field__active .delete-button {
+    display: none;
+} */
+
+input {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 16px;
+    height: 44px;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+
+.message {
+    visibility: hidden;
+    font-weight: 100;
+    font-size: 13px;
+    color: #EC2626;
+}
+
+.field__active { 
+    width: 100%;
+}
+
+.field__error { 
+    width: 100%;
+}
+
+.field__error input {
+    border: 1px solid #EC2626;
+}
+
+.field__error .message {
+    visibility: visible;
+}
+
+.button__signin {
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    border-radius: 8px;
+    width: 343px;
+    height: 50px;
+    font-size: 14px;
+    background-color: #0072C7;
+}

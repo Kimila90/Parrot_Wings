@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./styles/signin.css">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signin">
+        <img src="./img/iPhone 11 Pro/Logo_small.png" alt="Parrot wings logo">
+        <div class="tabs">
+            <div class="tab__signin">
+                <div class="tab__active">
+                    <p>
+                        Sign in
+                    </p>
+                </div>
+            </div>
+            <div class="tab__signup">
+                <div class="tab__active">
+                    <p>
+                        Sign up
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <h5 class="field__name">Name</h5>
+            <div class="field__inner">
+                <button class="delete-button">
+                    <img src="./img/iPhone 11 Pro/delete_button.svg" alt="">
+                </button>
+            </div>
+            <input type="text" placeholder="Please, enter your name" type="submit" value="search">
+            <div class="message">Password is not correct</div>
+        </div>
+        <div class="field__active">
+                <h5 class="field__name">E-mail</h5>
+                <div class="field__inner">
+                    <button class="delete-button">
+                        <img src="./img/iPhone 11 Pro/delete_button.svg" alt="">
+                    </button>
+                </div>
+                <input type="text" placeholder="Please, enter your e-mail" type="submit">
+                <div class="message">Password is not correct</div>
+        </div>
+        <div class="field__error">
+            <h5 class="field__name">Password</h5>
+            <div class="field__inner">
+                <button class="delete-button">
+                    <img src="./img/iPhone 11 Pro/delete_button.svg" alt="">
+                </button>
+            </div>
+            <input type="text" placeholder="Please, enter your password" type="submit" value="******">
+            <div class="message">Password is not correct</div>
+        </div>
+        <button class="button__signin">Sign in</button>
+    </div>
+</body>
+</html>
