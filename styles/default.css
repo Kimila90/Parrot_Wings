@@ -29,5 +29,5 @@ body {
 }
 
 .button__signin {
-    border: none;
+    text-decoration: none;
 }

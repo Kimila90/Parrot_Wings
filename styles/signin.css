@@ -53,14 +53,15 @@ h5 {
 }
 
 .delete-button {
+    display: none;
     position: absolute;
     right: 1.1em;
-    top: 0.8em;
+    top: 0.9em;
 }
 
-/* .field .field__active .delete-button {
-    display: none;
-} */
+.active .delete-button {
+    display: block;
+}
 
 input {
     font-family: 'Poppins', sans-serif;
@@ -80,28 +81,25 @@ input {
     color: #EC2626;
 }
 
-.field__active { 
-    width: 100%;
-}
-
-.field__error { 
-    width: 100%;
-}
-
-.field__error input {
+.field.error input {
     border: 1px solid #EC2626;
 }
 
-.field__error .message {
+.field.error .message {
     visibility: visible;
 }
 
 .button__signin {
-    font-family: 'Poppins', sans-serif;
-    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     width: 343px;
     height: 50px;
-    font-size: 14px;
     background-color: #0072C7;
+}
+
+.button__signin p {
+    color:#fff;
+    font-size: 14px;
 }
