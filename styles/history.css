@@ -8,9 +8,9 @@ body {
 
 .history {
     height: calc(100% - 127px);
-    font-family: 'Poppins', sans-serif;    font-size: 14px;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 14px;
     color: #000;
-    overflow: auto;
     justify-content: center;
     align-items: center;
 }
@@ -112,10 +112,15 @@ a {
 
 /* TRANSACTION */
 
-.transaction {
+.transactions {
+    height: calc(100% - 192px);
     overflow: auto;
+}
+
+.transaction {
     padding-left: 15px;
-    padding-right: 15px;}
+    padding-right: 15px;
+}
 
 .transaction__day {
     display: flex;
