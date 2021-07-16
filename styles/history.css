@@ -23,13 +23,9 @@ body {
     opacity: 50%;
 }
 
-.container {
-    width: 345px;
-}
-
 .header {
+    width: 100vw;
     font-family: 'Poppins', sans-serif;    font-size: 14px;
-    width: 100wv;
     height: 44px;
     overflow: auto;
     display: flex;
@@ -37,6 +33,8 @@ body {
 }
 
 .header__inner {
+    padding: 0 15px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
