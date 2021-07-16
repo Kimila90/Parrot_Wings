@@ -7,7 +7,7 @@ body {
 }
 
 .history {
-    padding-bottom: 60px;
+    height: calc(100% - 127px);
     font-family: 'Poppins', sans-serif;    font-size: 14px;
     color: #000;
     overflow: auto;
@@ -109,8 +109,9 @@ a {
 /* TRANSACTION */
 
 .transaction {
-padding-left: 15px;
-padding-right: 15px;}
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;}
 
 .transaction__day {
     display: flex;

@@ -12,27 +12,27 @@ img {
     height: 32px;
 }
 
-.tab__signin {
+.tab.active {
     width: 98px;
     border-radius: 8px;
     border: 1px solid #0072C7;
     height: 100%;
 }
 
-.tab__signin p {
+.tab.active p {
     text-align: center;
     padding: 6px;
     font-weight: 400;
     color: #0072C7;
 }
 
-.tab__signup {
+.tab {
     width: 98px;
     border: 1px ;
     height: 100%;
 }
 
-.tab__signup p {
+.tab p {
     text-align: center;
     padding: 6px;
     font-weight: 400;
