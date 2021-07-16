@@ -59,7 +59,7 @@ h5 {
     top: 0.9em;
 }
 
-.active .delete-button {
+.field.active .delete-button {
     display: block;
 }
 

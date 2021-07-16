@@ -1,13 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.history {
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;    font-size: 14px;
+    color: #000;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    cursor: pointer;
+}
+
 .container {
     width: 345px;
 }
 
 .header {
+    font-family: 'Poppins', sans-serif;    font-size: 14px;
+    width: 100wv;
+    height: 44px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
+h4 {
+    font-weight: 600;
+}
 
 /* SUM */
 
@@ -20,21 +54,27 @@
 
 .sum p {
     text-align: center;
+}
+
+.numbers {
     font-size: 60px;
 }
 
 .lowercase {
-    font-size: 10px;
+    font-size: 30px;
     color: #E5E5E5;
 }
 
 .uppercase {
+    vertical-align: super;
+    font-size: 30px;
     vertical-align: sub;
 }
 
 /* SORT */
 
 .sort__inner {
+    padding-left: 15px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -63,4 +103,81 @@ a {
 
 .sort__var {
     margin-right: 18px;
+}
+
+
+/* TRANSACTION */
+
+.transaction {
+padding-left: 15px;
+padding-right: 15px;}
+
+.transaction__day {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 46px;
+}
+
+.transaction__day h5{
+    color: #0072C7;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+}
+
+.info__text {
+    padding-left: 15px;
+    align-items: center;
+}
+
+.operation {
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F7F7F7;
+    border-top: 1px solid #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pw {
+    display: flex;
+}
+
+.minus {
+    color: #EC2626;
+}
+
+.pw__currency {
+    color: #E5E5E5;
+}
+
+.info .date {
+    font-size: 10px;
+    color: #E5E5E5;
+}
+
+.plus {
+    color: #32D40A;
+}
+
+
+/* BOTTOM MENU */
+
+.menu__inner {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #F7F7F7;
+    height: 83px;
+}
+
+.menu__page {
+    margin-top: 15px;
+    width: 22px;
+    height: 22px;
 }
