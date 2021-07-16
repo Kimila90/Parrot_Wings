@@ -19,6 +19,10 @@ body {
     cursor: pointer;
 }
 
+.back:hover {
+    opacity: 50%;
+}
+
 .container {
     width: 345px;
 }
@@ -143,6 +147,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.operation:hover {
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
 }
 
 .pw {

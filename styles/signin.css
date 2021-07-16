@@ -103,3 +103,7 @@ input {
     color:#fff;
     font-size: 14px;
 }
+
+.button__signin:hover {
+    background-color: #0262ac;
+}
